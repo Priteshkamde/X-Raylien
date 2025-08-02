@@ -1,0 +1,52 @@
+# Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# PyCharm and VSCode settings
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Model weights, large files
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+
+# Output or generated data
+*.csv
+*.npy
+*.npz
+*.tfrecord
+*.pb
+
+# Data folders (optional – if you're keeping data separate)
+data/
+datasets/
+output/
+results/
+runs/
+checkpoints/
+
+# Colab & temp
+*.swp
+*.bak
+*.tmp
+*.zip
+
+# Exclude MURA data folders
+MURA-v1.1/
+data/
